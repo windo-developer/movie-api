@@ -1,0 +1,19 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/windo-developer/movie-api.git",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
